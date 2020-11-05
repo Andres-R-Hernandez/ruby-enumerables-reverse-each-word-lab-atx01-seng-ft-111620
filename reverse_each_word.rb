@@ -13,5 +13,4 @@ def reverse_each_word(string)
   split_array = string.split(" ")
   reverse_split = split_array.map { |e| e.reverse }
   reverse_reduced = reverse_split.reduce { |sum, e| sum + " " + e }
-
 end
